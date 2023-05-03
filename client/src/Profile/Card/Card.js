@@ -6,7 +6,7 @@ function Card(props) {
       <div className="card-main">
         <div className="left-side">
           <img className="icon" src={props.src} alt="icon" />
-          <span>Sign in</span>
+          <span>{props.title}</span>
         </div>
         <div className="right-side">
           <img className="arrow" src={arrow}   alt="down arrow" />

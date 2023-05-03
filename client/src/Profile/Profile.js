@@ -1,5 +1,27 @@
 import Card from "./Card/Card";
 import icon from "./assets/icon.png";
+import orders from './assets/menu.png'
+import promotion from './assets/promotion.png'
+import money from './assets/money.png'
+
+
+
+
+import wallet from './assets/wallet.png'
+import card from './assets/card.png'
+import address from './assets/address.png'
+
+
+import security from './assets/security.png'
+import download from './assets/download.png'
+
+
+
+
+import questions from './assets/compliants.png'
+
+
+import info from './assets/info.png'
 import bellimage from './assets/bell.png'
 import "./Profile.css";
 function Profile() {
@@ -40,17 +62,18 @@ function Profile() {
         </div>
       </div>
       <div className="card-section">
-        <Card src={icon} />
-        <Card src={icon} />
-        <Card src={icon} />
-        <Card src={icon} />
-        <Card src={icon} />
-        <Card src={icon} />
-        <Card src={icon} />
-        <Card src={icon} />
-        <Card src={icon} />
-        <Card src={icon} />
-        <Card src={icon} />
+        <Card src={icon} title = "Sign in"/>
+        <Card src={orders} title = "Orders"/>
+        <Card src={promotion} title = "Promotion"/>
+        <Card src={money} title = "Red Envelope"/>
+        <Card src={wallet} title =  "Wallet" />
+        <Card src={card} title = "Bank Card"/>
+       
+        <Card src={address} title = "Address"/>
+        <Card src={security} title = "Account Security"/>
+        <Card src={download} title = "App Download"/>
+        <Card src={questions} title = "Compliants and Sugesstions"/>
+        <Card src={info} title = "About"/>
       </div>
     </div>
   );

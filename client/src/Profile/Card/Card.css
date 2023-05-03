@@ -8,6 +8,7 @@
 
 
 .card-main{
+    box-sizing: border-box;
     width:100vw;
     
     height:7vh;
