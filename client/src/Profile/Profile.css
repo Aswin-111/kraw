@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto","Helvetica Neue", Arial, sans-serif; */
+    font-family:  Arial, sans-serif;
+}
+
+
+
+.kraw {
+
+    width:100vw;
+    height:20vh;
+    background-color: #009688;
+    box-sizing: border-box;
+/* display: flex;
+flex-direction: column;
+justify-content: space-between; */
+    
+    
+}
+.kraw .navbar .user-details{
+    display: flex;
+    justify-content: space-between;
+}
+/* .kraw .navbar .user-details, .bell-icon{
+    margin-top:12px;
+} */
+.kraw .navbar .user-details .user-grp{
+    margin-top:12px;
+    width:55vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kraw .navbar .user-details .user-grp h4{
+    font-size: 14px;
+    color:white;
+    line-height:22px;
+    }
+.kraw .navbar .user-details .logo{
+    height: 40px;
+    width:40px;
+    border-radius:50%;
+    background-color: rgb(5, 28, 89);
+    background: url('./assets/logo.svg');
+    background-size: cover;
+    margin: 2px 5px 0 15px;
+    border: 0;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12)!important;
+}
+.kraw .navbar .bell-icon img{
+    width: 20px;
+    height: 20px;
+}
+.kraw .navbar .bell-icon{
+    height: 40px;
+    width:40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 10px 0 13px;
+
+}
+.kraw .navbar .top-items{
+    width:100%;
+    height:12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kraw .navbar .top-items .top-button{
+    color:white;
+    background-color: #2196f3;
+    border-color: #2196f3!important;
+    padding: 0 8px;
+    margin-top: 5px;
+    width: 80px;
+    font-size: 14px;
+}
+
+
+.kraw .navbar .top-items .item1,.item2,.item3{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-main{
+    width:100vw;
+    
+    height:7vh;
+   
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card-main .left-side{
+    display: flex;
+    align-items: center;
+    color:black;
+    padding: 12px 15px 12px 15px;
+}
+.card-main .left-side .icon{
+        width:24px;
+        height:24px;
+        margin-right: 20px;
+}
+.card-main .right-side .arrow{
+
+
+         
+      width:18px;height:18px;
+    margin-right: 15px;
+}
