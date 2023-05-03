@@ -21,9 +21,19 @@ import download from './assets/download.png'
 import questions from './assets/compliants.png'
 
 
+
+
+
+
+
+
+
+
+
 import info from './assets/info.png'
 import bellimage from './assets/bell.png'
 import "./Profile.css";
+import Footer from "../Shared/Footer";
 function Profile() {
   return (
     <div className="container">
@@ -33,8 +43,8 @@ function Profile() {
             <div className="user-grp">
               <div className="logo">{/* <img src = {logo} /> */}</div>
               <div className="user-info">
-                <h4>User : 917994642217</h4>
-                <h4>ID: 1442</h4>
+                <div className="username">User : 917994642217</div>
+                <div className="userid">ID: 1442</div>
               </div>
             </div>
             <div className="bell-icon">
@@ -74,8 +84,17 @@ function Profile() {
         <Card src={download} title = "App Download"/>
         <Card src={questions} title = "Compliants and Sugesstions"/>
         <Card src={info} title = "About"/>
+
+      </div>
+      
+      <div className="logout">
+        <button className = "logout-btn">Logout</button>
+      </div>
+      <div className="footer-section">
+        <Footer/>
       </div>
     </div>
   );
 }
+
 export default Profile;
